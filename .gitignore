@@ -1,0 +1,14 @@
+﻿# History and workspace files
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# Large binary intermediate files
+*.rds
+*.RData
+
+# System & OS artifacts
+.DS_Store
+Thumbs.db
+desktop.ini
