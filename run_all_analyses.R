@@ -48,6 +48,10 @@ source("03_generate_figure5_loadings_comp1.R")
 cat("\n>>> Step 4: Generating Publication Figure 6 (Component 2 Loadings)...\n")
 source("04_generate_figure6_loadings_comp2.R")
 
+# 6. Evaluate Model Cross-Validation and Classification Performance
+cat("\n>>> Step 5: Evaluating Cross-Validation & Model Performance...\n")
+source("05_evaluate_diablo_performance.R")
+
 cat("\n##############################################################################\n")
 cat("All Multi-Omics Pipeline Analyses and Figure Exports Finished Successfully!\n")
 cat("##############################################################################\n")
